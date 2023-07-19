@@ -35,11 +35,34 @@ foreach(int valor in array){
     contador++;
 }*/
 
+//////////////// PROPRIEDADES E MÉTODOS//////////////////////////
+/////////////////////////////////////////////////////////////////
+
+
 using C__DIO.Models;
 
-Pessoa p1 = new Pessoa();
+Pessoa p1 = new Pessoa(
+
+);
 
 p1.Nome= "Ana";
 p1.Idade= 23;
+p1.Sobrenome= "Maria";
 
+
+Pessoa p2 = new Pessoa();
+
+p2.Nome= "Yuri";
+p2.Idade= 27;
+p2.Sobrenome= "Henrique";
+
+
+Curso cursoDeIngles = new Curso();
+cursoDeIngles.Nome= "Ingles";
+cursoDeIngles.Alunos = new List<Pessoa> ();
+
+cursoDeIngles.AdicionarAluno(p1);
+cursoDeIngles.AdicionarAluno(p2);
+cursoDeIngles.ListarAlunos();
 p1.Apresentar();
+//p1._nome="Amor"; // não pega só se for pela Propriedade Nome.

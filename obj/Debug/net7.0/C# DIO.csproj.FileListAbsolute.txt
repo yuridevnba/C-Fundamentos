@@ -13,3 +13,18 @@ C:\Users\yuri-\OneDrive\Área de Trabalho\C# DIO\obj\Debug\net7.0\refint\C# DIO.
 C:\Users\yuri-\OneDrive\Área de Trabalho\C# DIO\obj\Debug\net7.0\C# DIO.pdb
 C:\Users\yuri-\OneDrive\Área de Trabalho\C# DIO\obj\Debug\net7.0\C# DIO.genruntimeconfig.cache
 C:\Users\yuri-\OneDrive\Área de Trabalho\C# DIO\obj\Debug\net7.0\ref\C# DIO.dll
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\bin\Debug\net7.0\C# DIO.exe
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\bin\Debug\net7.0\C# DIO.deps.json
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\bin\Debug\net7.0\C# DIO.runtimeconfig.json
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\bin\Debug\net7.0\C# DIO.dll
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\bin\Debug\net7.0\C# DIO.pdb
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\C# DIO.csproj.AssemblyReference.cache
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\C# DIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\C# DIO.AssemblyInfoInputs.cache
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\C# DIO.AssemblyInfo.cs
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\C# DIO.csproj.CoreCompileInputs.cache
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\C# DIO.dll
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\refint\C# DIO.dll
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\C# DIO.pdb
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\C# DIO.genruntimeconfig.cache
+C:\Users\yuri-\OneDrive\Área de Trabalho\Dio\obj\Debug\net7.0\ref\C# DIO.dll
