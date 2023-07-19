@@ -1,9 +1,38 @@
-﻿try{
+﻿
+using C__DIO.Models;
+
+new ExemploExcecao().Metodo1();
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*try{
 
 string [] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt"); // cada linha vai ficar como se fosse um array.
 
@@ -24,5 +53,5 @@ catch(Exception ex){
 
 finally{
     System.Console.WriteLine("Chegou até aqui!");
-}
+}*/
 
