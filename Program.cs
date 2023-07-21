@@ -1,13 +1,14 @@
 ﻿
 using C__DIO.Models;
 
- Stack <int>pilha  = new Stack<int> ();
+ Dictionary<string,string> estados = new Dictionary<string, string>();
 
-pilha.Push(14); // no topo
-pilha.Push(16);
-pilha.Push(18);
-foreach(int item in pilha){
-    System.Console.WriteLine(item);
-}
+ estados.Add("SP","São Paulo");
+ estados.Add("BA","Bahia");
 
-pilha.Pop();// removendo o 18
+ foreach(/*KeyValuePair<string,string>*/ var item in estados){
+
+System.Console.WriteLine($"Chave:{item.Key}, Valor:{item.Value}");
+
+ }
+ estados.Add("BA2","Bahia"); // a chave não pode ser repetida, mas o valor pode.
