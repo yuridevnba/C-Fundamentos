@@ -1,28 +1,35 @@
 ﻿
 using C__DIO.Models;
 
- Dictionary<string,string> estados = new Dictionary<string, string>();
+/*(int, string , string) tupla = (1,"YUri","Henrique"); // tupla tem 3 tipos de dados e 3 tipos de valores. apenas com uma única variável foi representado 3 valores de diferentes tipos.
+//ValueTuple <int, string> outrosexemplostupla = (1,"ana");
+//var outroexemplotuplacreate = Tuple.Create(1,"eu"); // já identifica, mas os dados não ficam genéricos.
 
- estados.Add("SP","São Paulo");
- estados.Add("BA","Bahia");
 
- foreach(/*KeyValuePair<string,string>*/ var item in estados){
 
-System.Console.WriteLine($"Chave:{item.Key}, Valor:{item.Value}");
 
- }
- estados.Add("BA2","Bahia"); // a chave não pode ser repetida, mas o valor pode.
+System.Console.WriteLine($"SobreNome:{tupla.Item3}");*/
 
- estados.Remove("BA");
 
- estados["SP"] = "Sao Paulo - valor alterado";
+/*LeituraArquivo arquivo = new LeituraArquivo();
 
- string chave = "BA";
+var(sucesso,linhasArquivo, /*QuantidadeLinhas_)= arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");// _ fiz o descarte, visto que essa informação não estou usando na prática.
 
- if(estados.ContainsKey(chave)){
-    System.Console.WriteLine("Valor existente"+chave);
-    System.Console.WriteLine(estados["BA"]); // obtendo o valor.
- }
- else{
-    System.Console.WriteLine("Valor não existente");
- }
+if(sucesso){
+
+   System.Console.WriteLine("Quantidade linhas do arquivo");
+
+   foreach(string linha in linhasArquivo){
+   System.Console.WriteLine(linha);
+   }
+}
+   else{
+      System.Console.WriteLine("Nao foi possível ler o arquivo");
+   }*/
+
+   Pessoa p1 = new Pessoa("Yuri","Silva");
+
+   (string nome, string sobrenome) = p1; // um densconstrutor é parecido com uma tupla, separando em variáveis separáveis.
+
+
+   System.Console.WriteLine($"{nome}{sobrenome}");

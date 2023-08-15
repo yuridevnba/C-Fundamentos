@@ -14,9 +14,17 @@ namespace C__DIO.Models
             
         }
         public Pessoa(string nome, string sobrenome){
+            Nome =  nome; // variável e colocar na propriedade.
+            Sobrenome = sobrenome;
 
         }
+        
+        public void Deconstruct( out string nome, out string sobrenome){  // out é um parâmetro de saída.
+            nome = Nome; //variavel vai receber a propriedade
+            sobrenome = Sobrenome;
+             
 
+        }
 
          private string _nome;  // campo
         public string Nome // propriedade para nome, o private não pode ser usada fora do código, só a propriedade que é public.
